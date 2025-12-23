@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>aami kutty</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+                background: linear-gradient(135deg, #8b16ab, #c91ac6);
+            text-align: center;
+            color: #fff;
+        }
+
+        .container {
+            padding: 50px 20px;
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(8px);
+            padding: 25px;
+            border-radius: 20px;
+            margin-top: 30px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #ff6f91;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 1rem;
+            color: #fff;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #ff3e6c;
+        }
+
+        #surprise {
+            display: none;
+            font-size: 1.4rem;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .collage {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 200px;
+      gap: 10px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .collage img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    /* Custom sizes */
+    .wide {
+      grid-column: span 2;
+    }
+
+    .tall {
+      grid-row: span 2;
+    }
+
+    .big {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  </style>
+</head>
+<body>
+
+  <h2 style="text-align:center;">HAPPY birthday my dear</h2>
+
+  <div class="collage">
+    <img src="https://picsum.photos/600/400?1" class="big">
+    <img src="https://picsum.photos/600/400?2">
+    <img src="https://picsum.photos/600/400?3">
+    <img src="https://picsum.photos/600/400?4" class="tall">
+    <img src="https://picsum.photos/600/400?5" class="wide">
+    <img src="https://picsum.photos/600/400?6">
+
+  </div>
+    </style>
+
+    <script>
+        function showSurprise() {
+            document.getElementById("surprise").style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1> HAPPY BIRTHDAY DARLING!</h1>
+        <p>Wishing you a day filled with love, joy, and happiness.</p>
+
+        <div class="card">
+            <h2>✨ A Special Message ✨</h2>
+            <p>
+                May all your dreams come true this year.  
+                You deserve all the love and goodness life has to offer!
+            </p>
+
+            <button class="btn" onclick="showSurprise()">ithil nekk kurupeee</button>
+
+            <p id="surprise">AAMI KUTTYE HAPPYYYYY BIRTHDAYYYYYY MYY SWEETHEARTTTT </p>
+        </div>
+    </div>
+
+</body>
+</html>
